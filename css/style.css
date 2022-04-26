@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl {
+    margin: 0;
+    padding: 0;
+    line-height: 1.57;
+    color: #eeeeee;
+    font-family: "FOT-筑紫Aオールド明朝 Pr6N L","A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+        "ＭＳ 明朝", serif;
+    font-feature-settings: "palt";
+}
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+/* リセットはここまで */
+body{
+    background-color: #141414;
+    width: 1440px;
+    padding-top: 10px;
+}
+/* ヘッダー固定 */
+header{
+    max-width: 100%;
+    height: 50px;
+    padding: 0.1%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    line-height: 0;
+}
+.header_wrap{
+    justify-content: space-between;
+    padding: 0 3% 0 2.91%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 38px;
+    left: 23px;
+    width: 100%;
+    padding-top: 10px;
+    z-index: 50;
+}
+.logo{
+    position: absolute;left: 20%;
+    width: 82px;
+    padding-bottom: 10px;
+    
+}
+.pc_nav{
+    display: flex;
+    padding: 0 500px;
+}
+.pc_nav ul{
+    display: flex;
+    margin: 0 auto;
+}
+.pc_nav li{
+    
+    font-size: 24px;
+    width: 104px;
+    margin: 0 50px;
+   
+}
+.pc_nav li:last-child{
+    margin-right: 50px;
+}
+.pc_nav .nav_logo1{
+    width:41.5819 px;
+}
+.pc_nav .nav_logo2{
+    width: 36.1497 px;
+}
+/* top */
+.top{
+    height: 900px;
+}
+.top_title{
+    position: absolute;top:460px; left: 60px;
+    width: 39.4155px;
+}
+.video {
+    padding-left: 20%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    padding-top: 30%;
+}
+    
+/* .top_video{
+    
+    padding-top: 90px;
+} */
+/* ページャー、ドットをスクロール上に入れる */
+/* top スクロールダウンここから */
+/* 位置 */
+.scrolldown1{
+
+    position: absolute;
+    left: 8.1%;
+    bottom: 0;
+    height: 15px;
+}
+/*  スクロール描写*/
+.scrolldown1 span{
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    color: #e21f00;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+}
+/* 線の描写 */
+.scrolldown1::after{
+    content:"";
+    /* 描写位置 */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* 線の形状 */
+    width: 2px;
+    height: 40px;
+    background: #e21f00;
+    /* 線の動きループ */
+    animation: pathmove 1.5s ease-in-out infinite;
+    opacity: 0;
+}
+/* 高さ・位置・透過が変化してせんが上から下に動く */
+@keyframes pathmove{
+    0%{
+        height: 0;
+        top: 0;
+        opacity: 0;
+    }
+    30%{
+        height: 30px;
+        opacity: 1;
+    }
+    100%{
+        height: 0;
+        top: 50px;
+        opacity: 0;
+    }
+}
+/* topスクロールダウンここまで */
+
+/* セクション　アバウトここから */
+.about{
+    background-color: #286f84;
+    height: 900px;
+}
+.about_title{
+    position: absolute;top: 1450px; left:60px;
+    width: 39.4155px;
+
+
+}
+.about_wrap{
+    /* width: px; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 10%;
+}
+.name{
+    font-size: 43px;
+    padding: 75.6px 0 35.94px 0;
+}
+/* プロフ */
+.prof{
+    width: 608px;
+    font-size: 23px;
+    /* letter-spacing: 0.05em; */
+    line-height: 1.57;
+    padding-left: 25px;
+
+}
+/* about項目 */
+.about_subtitle{
+    font-size: 29px;
+}
+/* 職歴 */
+.list_job{
+    font-size: 23px;
+    list-style:disc;
+    padding: 38.7px 0 30px 40px;
+    
+}
+/* スキル */
+.list_skill{
+    font-size: 23px;
+    list-style:disc;
+    padding: 30px 0 33px 40px;
+}
+
+/* プロフ写真 */
+.about_pic{
+    padding: 5% 0 0 15%;
+    max-width: 27.5vw;
+}
+.about_info{
+    font-size: 14px;
+    transform: rotate(90deg);
+    align-items: flex-end;
+    height: 20px;
+    position: relative;top :850px;right: 47px;
+}
+/*セクション　ポートフォリオここから */
+/* 項目、説明、モックアップ、moreのdivを3つ　flex横並び　縦線で挟む */
+.portfolio{
+    height: 900px;
+}
+.portfolio_title{
+    position: absolute;top: 2600px; left:60px;
+    width: 39.4155px;
+
+
+}
+.list_wrap{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 145px;
+
+}
+.list_p{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 35px 40px;
+}
+
+.list_pic{
+    max-width: 350px;
+    padding: 37.2px 0;
+}
+.link{
+    margin: 65px;
+    /* text-align: center; */
+    /* max-width: 254px;
+    height: 66px;
+    background-color: #ffffff;
+    border-radius: 10px; */
+}
+.link p{
+    width: 254px;
+    height:66px;
+    color: #141414;
+    font-size: 38.28px;
+    
+    background:#ffffff;
+    border-radius:10px;
+}

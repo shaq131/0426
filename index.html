@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="discription" content="しゃっくのポートフォリオサイト">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- href="css/9-1-1.css" -->
+
+</head>
+<body>
+    <!-- ヘッダーは固定する.
+    cssでposition:fixed;を指定する-->
+    <!--固定ヘッダー  -->
+    <!-- imgはh１タグ -->
+    <header>
+        <div class="header_wrap">
+            <h1 class="logo">
+                <img src="image/2x/pc_logo@2x-8.png" alt="logo">
+            </h1>
+            <!-- ナビのロゴは各媒体URLでリンク飛ばす -->
+            <nav class="pc_nav">
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <ul class="sns_link">
+                    <li><img class=nav_logo1 src="image/2x/pc_youtube_logo.png"></li>
+                    <li><img class=nav_logo2 src="image/2x/pc_insta_logo.png"></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- top -->
+    <section id="#top" class="top">
+        <div class="page_title_set">
+        <span><h2 class="top_title"><img src="image/2x/top_title_shaq@2x-8.png"></h2></span>
+        <div class="scrolldown1"><span></span></div>
+        </div>
+        <div class="video">
+          <video class="top_video" autoplay muted preload="none" width="80%" height="70%" controls playsinline muted loop> 
+            <source src="image/2x/video_sup.MP4">
+            <p>お使いのブラウザではvideoタグの動画を再生できません。</p>
+           </video>
+        </div>
+
+    </section>
+
+    <!-- about -->
+    <!-- h3プロフ項目タイトル -->
+    <section class="about">
+
+        <span><h2 id="#about" class="about_title"><img src="image/2x/title_about_pc.png"></h2></span>
+        <div class="about_wrap">
+            <div class="about_me">
+                <h3 class="name">スガヌマ　ノブアキ</p>
+
+               <p class="prof">1987年生まれ
+                <br>SHAQ (しゃっく)というニックネームで呼ばれている骨彫刻家
+                彫刻家として活動する傍でドローン撮影や広告バナー制作などを行っている。
+                <br>2022年2月よりデザスタという3ヶ月集中WEBデザイナースキル講座を受講し新たにWEBデザイナーとして活動の場を広げ始めた。</p>
+
+                <h3 class="about_subtitle">[職歴・経歴]</h3>
+                <ul class="list_job">
+                    <li>海上自衛隊 3年</li>
+                    <li>ライフセーバー 11年</li>
+                    <li>ツアーガイド 2年</li>
+                    <li>彫刻留学 2年</li>
+                </ul>
+
+                <h3 class="about_subtitle">[スキル]</h3>
+                <ul class="list_skill">
+                    <li>ドローン撮影 1年 飛行距離224km (2021年12月末時点)</li>
+                    <li>骨・貝彫刻 15年</li>
+                    <li>WEBデザイン 3ヶ月</li>
+                </ul>
+                
+          </div>
+
+         <picture class="about_pic">
+             <img src="image/2x/aboutpic_@2x-100.jpg" alt="水中写真">
+          </picture>
+          <span class="about_info"><p>Loc:Zamami island</p></span>
+        </div>
+    
+
+
+
+
+
+
+
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio">
+        <span><h2 id="#portfolio" class="portfolio_title"><img src="image/2x/portfolo_title@2x.png"></h2></span>
+
+       <div class="list_wrap">
+           <div class="list_p">
+                <span><h3>Movie</h3></span>
+                <span><p>ドローンを使った空撮や<br>水中撮影を行っています</p></span>
+
+                <picture class="list_pic">
+                    <!-- <source srcset="image/2x/mockup_desing1.png" media="(max-width: 767px)"> -->
+                    <img src="image/2x/mockup_desing1.png" alt="架空会社のHPのモックアップ画像">
+                </picture>
+ 
+                <picture class="list_pic">
+                 <!-- <source srcset="image/2x/mockup_desing1.png" media="(max-width: 767px)"> -->
+                 <img src="image/2x/mockup_desing1.png" alt="架空会社のHPのモックアップ画像">
+                </picture>
+
+                <div class="link"><p>more</p></div>
+            
+             </div>
+           <div class="list_p">
+              <span><h3>Desing</h3></span>
+               <span><p>ニーズに合わせたロゴやLPや<br>バナー広告などを制作します</p></span>
+
+               <picture class="list_pic">
+                   <!-- <source srcset="image/2x/mockup_desing1.png" media="(max-width: 767px)"> -->
+                   <img src="image/2x/mockup_desing1.png" alt="架空会社のHPのモックアップ画像">
+               </picture>
+
+               <picture class="list_pic">
+                <!-- <source srcset="image/2x/mockup_desing1.png" media="(max-width: 767px)"> -->
+                <img src="image/2x/mockup_desing1.png" alt="架空会社のHPのモックアップ画像">
+               </picture>
+
+               <div class="link"><p>more</p></div>
+               
+            </div>
+            <div class="list_p">
+               <span><h3>Carving</h3></span>
+               <span><p>貝や骨など自然界の素材を使い<br>彫刻作品を制作しています</p></span>
+               <picture class="list_pic">
+                <!-- <source srcset="image/2x/mockup_desing1.png" media="(max-width: 767px)"> -->
+                <img src="image/2x/mockup_desing1.png" alt="架空会社のHPのモックアップ画像">
+            </picture>
+
+            <picture class="list_pic">
+             <!-- <source srcset="image/2x/mockup_desing1.png" media="(max-width: 767px)"> -->
+             <img src="image/2x/mockup_desing1.png" alt="架空会社のHPのモックアップ画像">
+            </picture>
+
+            <div class="link"><p>more</p></div>
+             
+            </div>
+       </div>
+
+
+
+
+
+    </section>
+
+    <!-- contacr -->
+
+
+    
+</body>
+</html>
