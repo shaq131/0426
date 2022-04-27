@@ -48,60 +48,66 @@ img {
 body{
     background-color: #141414;
     width: 1440px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    /* margin: 0 auto; */
 }
 /* ヘッダー固定 */
 header{
-    max-width: 100%;
-    height: 50px;
+    width: 100%;
+    
     padding: 0.1%;
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 3;
-    display: flex;
+   
     line-height: 0;
 }
 .header_wrap{
     justify-content: space-between;
     padding: 0 3% 0 2.91%;
     box-sizing: border-box;
-    position: absolute;
-    top: 38px;
-    left: 23px;
+   
+    box-sizing: border-box;
     width: 100%;
+    padding-left: 30px;
     padding-top: 10px;
     z-index: 50;
+    display: flex;
 }
 .logo{
-    position: absolute;left: 20%;
+    
     width: 82px;
     padding-bottom: 10px;
     
 }
 .pc_nav{
     display: flex;
-    padding: 0 500px;
+    
 }
 .pc_nav ul{
     display: flex;
-    margin: 0 auto;
+    
 }
 .pc_nav li{
     
     font-size: 24px;
-    width: 104px;
-    margin: 0 50px;
+    padding: 0 20px;
+    
    
 }
 .pc_nav li:last-child{
-    margin-right: 50px;
+    margin-right: 5px;
 }
 .pc_nav .nav_logo1{
     width:41.5819 px;
 }
 .pc_nav .nav_logo2{
     width: 36.1497 px;
+}
+.sns_link li{
+    margin: 0 auto;
 }
 /* top */
 .top{
@@ -111,28 +117,19 @@ header{
     position: absolute;top:460px; left: 60px;
     width: 39.4155px;
 }
-.video {
-    padding-left: 20%;
-    left: 50%;
-    min-height: 100%;
-    min-width: 100%;
-    position: absolute;
-    top: 50%;
-    transform:translate(-50%,-50%);
-    padding-top: 30%;
+.top_video {
+    position: relative;
+    left: 180px;
+    top: 70px;
+    
 }
-    
-/* .top_video{
-    
-    padding-top: 90px;
-} */
 /* ページャー、ドットをスクロール上に入れる */
 /* top スクロールダウンここから */
 /* 位置 */
 .scrolldown1{
 
     position: absolute;
-    left: 8.1%;
+    left: 60px;
     bottom: 0;
     height: 15px;
 }
@@ -182,10 +179,15 @@ header{
 /* セクション　アバウトここから */
 .about{
     background-color: #286f84;
-    height: 900px;
+    padding: 40px 0;
+    position: relative;
+}
+.about_all{
+    width: 1440px;
+    margin: 0 auto;
 }
 .about_title{
-    position: absolute;top: 1450px; left:60px;
+    position: absolute;top: 500px; left:60px;
     width: 39.4155px;
 
 
@@ -205,7 +207,7 @@ header{
 .prof{
     width: 608px;
     font-size: 23px;
-    /* letter-spacing: 0.05em; */
+    letter-spacing: 0.01em;
     line-height: 1.57;
     padding-left: 25px;
 
@@ -229,24 +231,36 @@ header{
 }
 
 /* プロフ写真 */
+.pic_wrap{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+
+}
 .about_pic{
-    padding: 5% 0 0 15%;
-    max-width: 27.5vw;
+    padding: 10% 0 0 20%;
+    /* max-width: 27.5vw;
+    height: auto; */
 }
 .about_info{
     font-size: 14px;
     transform: rotate(90deg);
     align-items: flex-end;
     height: 20px;
-    position: relative;top :850px;right: 47px;
+    position: relative;top :800px;right: 35px;
 }
 /*セクション　ポートフォリオここから */
 /* 項目、説明、モックアップ、moreのdivを3つ　flex横並び　縦線で挟む */
 .portfolio{
-    height: 900px;
+    padding: 5%;
+    position: relative;
+    
+}
+.port_all{
+    margin: 0 auto;
 }
 .portfolio_title{
-    position: absolute;top: 2600px; left:60px;
+    position: absolute;top: 500px; left:60px;
     width: 39.4155px;
 
 
@@ -264,27 +278,90 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 35px 40px;
+    /* 親要素の中を％でとる*/
+    /* width: 30%; */
+}
+.list_p h3{
+    font-size: 42.63px;
 }
 
 .list_pic{
     max-width: 350px;
-    padding: 37.2px 0;
+    padding: 15px 0;
+    display: block;
+    /* ピクチャータグにマージンは入らない */
 }
 .link{
-    margin: 65px;
-    /* text-align: center; */
-    /* max-width: 254px;
-    height: 66px;
-    background-color: #ffffff;
-    border-radius: 10px; */
+    margin: 0 auto;
+    width: 260px;
 }
 .link p{
-    width: 254px;
+    
     height:66px;
     color: #141414;
     font-size: 38.28px;
-    
     background:#ffffff;
     border-radius:10px;
 }
+.list_pic .img1 {
+ max-width: 350px;
+ height: 262.5px;
+}
+/* contact ここから*/
+.contact_all{
+    padding: 40px 0;
+    position: relative;
+
+}
+
+.contact{
+    background-color: #286f84;
+    
+}
+
+.contact_wrap{
+    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact_title{
+    position: relative;top: 200px; left:60px;
+    width: 39.4155px;
+}
+
+/* .contact_iteme{
+    width: 1000px;
+    height: 50px;
+    
+} */
+.input_name{
+    width: 1000px;
+
+}
+.input_email{
+    width: 1000px;
+
+}
+.input_messe{
+    width: 1000px;
+    height: 50px;
+}
+
+
+
+/* レスポンシブ ここから*/
+@media screen and (max-width: 767px){}
+    /* ヘッダー */
+
+    /* トップ */
+
+    /* アバウト */
+
+    /* ポート */
+    
+    /* コンタクト */
+
+
+
+
