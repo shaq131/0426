@@ -48,13 +48,11 @@ img {
 body{
     background-color: #141414;
     width: 1440px;
-    /* padding-top: 10px; */
-    /* margin: 0 auto; */
+
 }
 /* ヘッダー固定 */
 header{
     width: 100%;
-    
     padding: 0.1%;
     box-sizing: border-box;
     position: fixed;
@@ -67,8 +65,6 @@ header{
 .header_wrap{
     justify-content: space-between;
     padding: 0 3% 0 2.91%;
-    box-sizing: border-box;
-   
     box-sizing: border-box;
     width: 100%;
     padding-left: 30px;
@@ -123,7 +119,8 @@ header{
     top: 70px;
     
 }
-/* ページャー、ドットをスクロール上に入れる */
+/* Navドットをスクロール上に入れたい*/
+
 /* top スクロールダウンここから */
 /* 位置 */
 .scrolldown1{
@@ -278,15 +275,21 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-left: 0.93px solid #ededed;
     /* 親要素の中を％でとる*/
     /* width: 30%; */
 }
+.list_p:last-child{
+    border-right: 0.93px solid #ededed;
+}
+
 .list_p h3{
     font-size: 42.63px;
 }
 
 .list_pic{
     max-width: 350px;
+    margin: 0 25px;
     padding: 15px 0;
     display: block;
     /* ピクチャータグにマージンは入らない */
@@ -316,11 +319,9 @@ header{
 
 .contact{
     background-color: #286f84;
-    
 }
 
 .contact_wrap{
-    
     text-align: center;
     margin: 0 auto;
 }
@@ -329,23 +330,45 @@ header{
     position: relative;top: 200px; left:60px;
     width: 39.4155px;
 }
+.submit-btn{
+    padding-left: 20%;
+}
 
-/* .contact_iteme{
-    width: 1000px;
-    height: 50px;
-    
-} */
+
+
 .input_name{
     width: 1000px;
+    height: 63.9869px;
+
 
 }
 .input_email{
     width: 1000px;
+    height: 63.9869px;
 
 }
 .input_messe{
     width: 1000px;
-    height: 50px;
+    height: 241.0761px;
+}
+
+/* カービングポートフォリオ */
+.carve_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 100px;
+
+}
+
+.carve_wrap div{
+    width: 30%;
+    height: 256px;
+    color: #286f84;
+    background: #ededed;
+    margin-bottom: 20px;
 }
 
 
