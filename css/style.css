@@ -329,13 +329,13 @@ header{
 a.btn--orange {
     color: #fff;
     background-color: #286f84;
-    border-bottom: 5px solid #b84c00;
+    border-bottom: 5px solid #e21f00;
   }
   a.btn--orange:hover {
     margin-top: 3px;
     color: #fff;
     background: #286f84;
-    border-bottom: 2px solid #b84c00;
+    border-bottom: 2px solid #e21f00;
   }
   a.btn--shadow {
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
@@ -508,7 +508,7 @@ border-radius: 10px;
 
 .list_info{
     position: relative;
-    left: 10px;
+    left: 21px;
     line-height: 1.7;
     
 }
