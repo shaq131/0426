@@ -168,7 +168,7 @@ header{
 .scrolldown1{
 
     position: absolute;
-    left: 65px;
+    left: 62px;
     bottom: 55px;
     height: 15px;
     position: fixed;
@@ -762,6 +762,7 @@ border-radius: 10px;
     .contact_title{
         display: none;
     }
+  
     .sp_contact{
         display: block;
         max-width: 150px;
