@@ -83,7 +83,7 @@ button.btn {
 /* リセットはここまで */
 
 body {background-color: #141414;
-    width:1440px;
+
 }
 /* ヘッダー固定 */
 header{
@@ -157,8 +157,10 @@ header{
     width: 39.4155px;
 }
 .top_video {
+    width: 80%;
+    height: 70%;
     position: relative;
-    left: 300px;
+    left: 290px;
     top: 70px;
     
 }
@@ -230,7 +232,7 @@ header{
     position: relative;
 }
 .about_all{
-    width: 1440px;
+    width:100%;
     margin: 0 auto;
 }
 .about_title{
@@ -252,7 +254,7 @@ header{
 }
 /* プロフ */
 .prof{
-    width: 608px;
+    width: 100%;
     font-size: 23px;
     letter-spacing: 0.01em;
     line-height: 1.58;
