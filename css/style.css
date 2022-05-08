@@ -21,6 +21,7 @@ dl {
         "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
         "ＭＳ 明朝", serif;
     font-feature-settings: "palt";
+    font-size: 62.5%;
 }
 a {
     /*下線を消す*/
@@ -129,7 +130,7 @@ header{
 }
 .pc_nav li{
     
-    font-size: 24px;
+    font-size: 2.3rem;
     padding: 0 20px;
     
    
@@ -160,7 +161,7 @@ header{
     width: 80%;
     height: 70%;
     position: relative;
-    left: 290px;
+    left: 20%;
     top: 70px;
     
 }
@@ -220,6 +221,7 @@ header{
 /* topスクロールダウンここまで */
 
 /* セクション　アバウトここから */
+
 .sp_about{
     display: block;
 }
@@ -227,9 +229,11 @@ header{
     display: none;
 }
 .about{
+    max-width: 100%;
     background-color: #286f84;
     padding: 40px 0;
     position: relative;
+
 }
 .about_all{
     width:100%;
@@ -249,13 +253,13 @@ header{
     padding-left: 10%;
 }
 .name{
-    font-size: 43px;
+    font-size: 4.3rem;
     padding: 75.6px 0 35.94px 0;
 }
 /* プロフ */
 .prof{
-    width: 100%;
-    font-size: 23px;
+    /* width: 100%; */
+    font-size: 2.3rem;
     letter-spacing: 0.01em;
     line-height: 1.58;
     padding-left: 25px;
@@ -731,8 +735,7 @@ border-radius: 10px;
     }
 
     .header_wrap .logo{
-        width: 122.2375px;
-        padding: 30px 0 30px 30px ;
+        padding: 15px 0 15px 15px ;
     }
 
     /* トップ */
@@ -803,9 +806,9 @@ border-radius: 10px;
         border-left: none;
         
     }
-    /* .list_p:last-child{
+    .list_p:last-child{
         border-right: none;
-    } */
+    }
     .list_p h3 {
         margin-top:120px;
         padding: 20px;
@@ -881,7 +884,7 @@ border-radius: 10px;
         display: flex;
         flex-wrap: wrap;
         max-width: 100%;
-        margin: 155px auto;
+        margin: 0 auto;
         justify-content:center;
         padding: 100px;
     }
@@ -895,7 +898,7 @@ border-radius: 10px;
         background-color: #286f84;
         max-width: 340px;
         position:relative;
-        top:-100px;
+        top:-65px;
         margin-right: 10px;
 
     }
