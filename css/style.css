@@ -276,14 +276,14 @@ header{
 }
 /* 職歴 */
 .list_job{
-    font-size: 23px;
+    font-size: 2.3rem;
     list-style:disc;
     padding: 38.7px 0 30px 40px;
     
 }
 /* スキル */
 .list_skill{
-    font-size: 23px;
+    font-size: 2.3rem;
     list-style:disc;
     padding: 30px 0 33px 40px;
 }
