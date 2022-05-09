@@ -160,10 +160,12 @@ header{
 .top_video {
     width: 80%;
     height: 70%;
-    position: relative;
+    /* position: relative;
     left: 20%;
-    top: 70px;
-    
+    top: 70px; */
+    padding-bottom: 100px;
+    margin-top: 70px;
+    margin-left: 20%;
 }
 
 /* top スクロールダウンここから */
@@ -364,6 +366,9 @@ a.btn--orange {
 .list_p h3{
     font-size: 42.63px;
 }
+.list_p p{
+    font-size: 1.6rem;
+}
 
 .list_pic{
     max-width: 350px;
@@ -402,8 +407,10 @@ a.btn--orange {
 
 /* contact ここから*/
 .contact_all{
+    background-color: #286f84;
     padding: 40px 0;
     position: relative;
+    font-size: 1.8rem;
     /* display: inline-block; */
 
 }
@@ -498,12 +505,15 @@ border-radius: 10px;
 .thanks{
     text-align: center;
 }
+.thanks_wrap h2 {
+    font-size: 1.6rem;
+    
+}
 /* btn back ひかる */
 .backto{
     position: relative;
     display: inline-block;
     padding: 5px 30px;
-    /* border: 2px solid rgb(242, 39, 39); */
     margin: 10px;
     text-transform: uppercase;
     font-weight: 600;
@@ -857,6 +867,9 @@ border-radius: 10px;
     }
     .contact_title{
         display: none;
+    }
+    .contact_item{
+        font-size: 1.6rem;
     }
   
     .sp_contact{
