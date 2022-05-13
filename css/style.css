@@ -340,7 +340,7 @@ a.btn--orange {
     border-bottom: 5px solid #e21f00;
   }
   a.btn--orange:hover {
-    margin-top: 3px;
+    margin-top: 1px;
     color: #fff;
     background: #286f84;
     border-bottom: 2px solid #e21f00;
@@ -751,6 +751,16 @@ border-radius: 10px;
     /* トップ */
 .top_all{
     max-width: 100%;
+}
+/* スクロールダウンの位置 */
+.scrolldown1{
+
+    position: absolute;
+    left: 16px;
+    bottom: 55px;
+    height: 15px;
+    position: fixed;
+    z-index: 9999;
 }
 
     /* アバウト */
