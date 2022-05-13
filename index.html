@@ -221,44 +221,35 @@
            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfiQ7T621qYJFJh3csoo_JP64jf5p56OoNg27VJjegz-TEh3Q/formResponse" 
            method="post"
            target="hidden_iframe"
-  onsubmit="submitted=true;"
+              onsubmit="submitted=true;"
            >
               <div class="contact__list">
+                 <div class="contact__item">
+                     <label for="NAME">NAME</label>
 
-               <div class="contact__item">
-                  <label for="NAME">NAME</label>
-
-                 <br><input class="input_name"
-                  type="text"
-                   name="entry.1719037604"
-                   id="name"
+                      <br><input class="input_name"
+                       type="text"
+                       name="entry.1719037604"
+                       id="name"
                      placeholder="名前"
-                       required
-                   />
-             </div>
+                       required />
+                  </div>
 
-              <div class="contact__item">
+                  <div class="contact__item">
                   <label for="E-MAIL">E-MAIL</label>
-
                       <br><input class="input_email"
                          type="email"
                             name="entry.88153295"
                           id="mail"
                          placeholder="sample@gmail.com"
-                          required
-                        />
-              </div>
+                          required/>
+                    </div>
 
-              <div class="contact__item">
-                   <label for="MESSEAGE">MESSEAGE</label>
-
-                 <br> <textarea class="input_messe" name="entry.1949118272" rows="4" cols="40"> ここにメッセージが入ります
-                     </textarea>
-
-                   
-                   
-              </div>
-      
+                   <div class="contact__item">
+                       <label for="MESSEAGE">MESSEAGE</label>
+                      <br> <textarea placeholder="ありがとうございます。" 
+                      class="input_messe" name="entry.1949118272" ></textarea>
+                   </div>
               </div>
               
                
@@ -268,8 +259,8 @@
                 </div>
            </form>
            <script type="text/javascript">
-  var submitted = false;
-</script>
+               var submitted = false;
+           </script>
 <iframe
   name="hidden_iframe"
   id="hidden_iframe"
@@ -278,8 +269,8 @@
 ></iframe>
 
                <div class="cmark_spc">
-                        <span><img src="image/2x/Cmark_spc@2x.png"></span>
-                      <span><p>2022 shaq.er.</p></span>
+                        <!-- <span><img src="image/2x/Cmark_spc@2x.png"></span> -->
+                      <span><p>&copy;2022 shaq.er.</p></span>
                </div>
         </div>
     </section>
