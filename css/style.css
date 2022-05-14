@@ -160,9 +160,6 @@ header{
 .top_video {
     width: 80%;
     height: 70%;
-    /* position: relative;
-    left: 20%;
-    top: 70px; */
     padding-bottom: 100px;
     margin-top: 70px;
     margin-left: 20%;
@@ -737,6 +734,22 @@ list_c{
 }
 
 /* レスポンシブ ここから*/
+/* セクション毎タイトルの位置レスポンシブ */
+@media screen and (max-width: 1340px){
+    .about_title{
+        display: none;
+    }
+    .sp_about{
+        display: block;;
+        text-align: center;
+
+    }
+    
+}
+
+
+
+
     /* ヘッダー */
     @media screen and (max-width: 767px){
         .sp_shaq{
@@ -777,9 +790,7 @@ list_c{
     .about_wrap{
         padding:0 ;
     }
-    .about_title{
-        display: none;
-    }
+ 
     .about_me{
         margin: 0 auto;
     }
