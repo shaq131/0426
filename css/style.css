@@ -744,7 +744,22 @@ list_c{
         text-align: center;
 
     }
-    
+    .portfolio_title{
+        display: none;
+    }
+    .sp_port_pic{
+        display: block;
+        text-align: center;
+    }
+    .contact_title{
+        display: none;
+    }
+    .sp_contact{
+        display: block;
+        max-width: 150px;
+        margin: 0 auto;
+        padding : 92px 0 41px 0;
+    }
 }
 
 
@@ -834,10 +849,10 @@ list_c{
     
     }
     /* ポート */
-    .sp_port_pic{
+    /* .sp_port_pic{
         display: block;
         text-align: center;
-    }
+    } */
     .list_p{
         border-left: none;
         
@@ -854,9 +869,9 @@ list_c{
         padding: 10px;
         font-size: 27px;
     }
-    .portfolio_title{
+    /* .portfolio_title{
         display: none;
-    }
+    } */
     .list_wrap{
         display: block;
         padding-top: 50px;
@@ -891,9 +906,9 @@ list_c{
         font-size: 20px;
         
     }
-    .contact_title{
+    /* .contact_title{
         display: none;
-    }
+    } */
     .contact_item{
         font-size: 1.6rem;
     }
@@ -901,12 +916,12 @@ list_c{
         font-size: 1.4rem;
     }
   
-    .sp_contact{
+    /* .sp_contact{
         display: block;
         max-width: 150px;
         margin: 0 auto;
         padding : 92px 0 41px 0;
-    }
+    } */
     .submit_p{
         font-size: 21px;
         padding: 22px 0 33px 0v;
