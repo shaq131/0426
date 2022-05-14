@@ -594,10 +594,14 @@ border-radius: 10px;
 .pic_p{
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    justify-content: space-between;
-    padding: 100px;
+    justify-content: flex-start;
+    padding: 100px 0;
+}
+list_c{
+    width: 30%;
+    margin-right: 3.33%;
 }
 
 .info_back{
@@ -614,9 +618,10 @@ border-radius: 10px;
 }
 
 .list_info{
-    position: relative;
-    left: 21px;
+    /* position: relative; */
+    /* left: 21px; */
     line-height: 1.7;
+    padding-left: 20px;
     
 }
 .more_title{
@@ -880,6 +885,9 @@ border-radius: 10px;
     }
     .contact_item{
         font-size: 1.6rem;
+    }
+    .input_name{
+        font-size: 1.4rem;
     }
   
     .sp_contact{
