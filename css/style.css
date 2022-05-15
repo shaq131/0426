@@ -802,6 +802,9 @@ list_c{
         max-width: 100%;
 
     }
+    .about_all h3{
+        margin-left: 16px;
+    }
     .about_wrap{
         padding:0 ;
     }
