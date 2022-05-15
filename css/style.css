@@ -45,12 +45,31 @@ img {
     vertical-align: bottom;
     border: none;
 }
+/* ボタン改ここから */
+.btn{
+    width: 209px;
+    padding: 14px 0 16px 0;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    background: #444;
+    line-height: 1;
+    border-radius: 50px;
+    transition: all .2s;
+  }
+
+
+/* ボタン改ここまで */
 /* ボタン */
-:before,
+/* :before,
 :after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
-}
+} */
 
 html {
   -webkit-box-sizing: border-box;
@@ -58,7 +77,7 @@ html {
   font-size: 62.5%;/*rem算出をしやすくするために*/
 }
 
-.btn,
+/* .btn,
 a.btn,
 button.btn {
   font-size: 2.5rem;
@@ -66,7 +85,7 @@ button.btn {
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  /* padding: 1rem 4rem; */
+  padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -78,9 +97,9 @@ button.btn {
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.1em;
-  /* color: #212529; */
+  color: #212529;
   border-radius: 0.5rem;
-}
+} */
 /* リセットはここまで */
 
 body {background-color: #141414;
@@ -275,14 +294,14 @@ header{
 .list_job{
     font-size: 2.3rem;
     list-style:disc;
-    padding: 38.7px 0 30px 40px;
+    padding: 24px 0 30px 40px;
     
 }
 /* スキル */
 .list_skill{
     font-size: 2.3rem;
     list-style:disc;
-    padding: 30px 0 33px 40px;
+    padding: 24px 0 33px 40px;
 }
 
 /* プロフ写真 */
