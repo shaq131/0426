@@ -45,25 +45,6 @@ img {
     vertical-align: bottom;
     border: none;
 }
-/* ボタン改ここから */
-.btn{
-    width: 209px;
-    padding: 14px 0 16px 0;
-    font-size: 1.6rem;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin: 0 auto;
-    color: #fff;
-    background: #444;
-    line-height: 1;
-    border-radius: 50px;
-    transition: all .2s;
-  }
-
-
-/* ボタン改ここまで */
 /* ボタン */
 :before,
 :after {
@@ -77,29 +58,6 @@ html {
   font-size: 62.5%;/*rem算出をしやすくするために*/
 }
 
-/* .btn,
-a.btn,
-button.btn {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
-} */
 /* リセットはここまで */
 
 body {background-color: #141414;
@@ -312,7 +270,7 @@ header{
 
 }
 .about_pic{
-    padding: 10% 0 0 20%;
+    padding: 50px 10% 0 20%;
   
 }
 .about_info{
@@ -350,30 +308,34 @@ header{
 
 }
 /* moreボタン*/
-a.btn--orange {
+/* ボタン改ここから */
+.btn{
+    width: 100px;
+    padding: 14px 0 16px 0;
+    font-size: 1.6rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
     color: #fff;
-    background-color: #286f84;
-    border-bottom: 5px solid #e21f00;
+    border: 2px solid #ca3b3b;
+    line-height: 1;
+    border-radius: 50px;
+    transition: all .2s;
   }
-  a.btn--orange:hover {
-    margin-top: 1px;
+  .btn:hover{
+    background-color: #ca3b3b;
+    border-color: #fff;
     color: #fff;
-    background: #286f84;
-    border-bottom: 2px solid #e21f00;
   }
-  a.btn--shadow {
-    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
-    box-shadow: 0 3px 5px rgba(243, 58, 58, 0.694);
-  }
-  /* moreボタンここまで */
+/* ボタン改ここまで */
 .list_p{
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-left: 0.93px solid #ededed;
-    /* 親要素の中を％でとる*/
-    /* width: 30%; */
 }
 .list_p:last-child{
     border-right: 0.93px solid #ededed;
@@ -453,13 +415,14 @@ a.btn--orange {
     margin-left: auto;
     width: 300px;
 }
-.btn {
+
+.btn_if {
     background-color:#ca3b3b;
     color: #ededed;
-    margin:26px 0 155px 0 ;
     width: 150px;
-    height: 40px;
-    font-size: 24px;
+    padding: 14px 0 16px 0;
+    /* height: 40px; */
+    font-size: 2.4rempx;
     border-radius: 10px;
     
 }
@@ -467,23 +430,23 @@ a.btn--orange {
 
 .input_name{
     box-sizing: border-box;
-    width: 100%;
-    height: 63.9869px;
+    width: 80%;
+    height: 48px;
     border-radius: 10px;
 
 
 }
 .input_email{
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
 border-radius: 10px;
-    height: 63.9869px;
+    height: 48px;
 
 }
 .input_messe{
     box-sizing: border-box;
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
     height: 241.0761px;
 }
 
@@ -607,7 +570,19 @@ border-radius: 10px;
 }
 
 /* ポートフォリオ別ページ */
-.pic_p{
+/* 改良案ここから */
+.wrapper {
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+    
+}
+
+/* 改良前ここから */
+/* .pic_p{
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -615,7 +590,7 @@ border-radius: 10px;
     justify-content: flex-start;
     padding: 100px 0;
 }
-list_c{
+.list_c{
     width: 30%;
     margin-right: 3.33%;
 }
@@ -634,12 +609,10 @@ list_c{
 }
 
 .list_info{
-    /* position: relative; */
-    /* left: 21px; */
     line-height: 1.7;
     padding-left: 20px;
     
-}
+} */
 .more_title{
     display: none;
 }
@@ -760,8 +733,7 @@ list_c{
     }
     .sp_about{
         display: block;;
-        text-align: center;
-
+        
     }
     .portfolio_title{
         display: none;
@@ -788,7 +760,7 @@ list_c{
     @media screen and (max-width: 767px){
         .sp_shaq{
             position: relative;
-            top: -80px;
+            top: -48px;
         }
     .header_wrap{
         display: block;
@@ -871,10 +843,7 @@ list_c{
     
     }
     /* ポート */
-    /* .sp_port_pic{
-        display: block;
-        text-align: center;
-    } */
+  
     .list_p{
         border-left: none;
         
@@ -891,9 +860,7 @@ list_c{
         padding: 10px;
         font-size: 2.7rem;
     }
-    /* .portfolio_title{
-        display: none;
-    } */
+ 
     .list_wrap{
         display: block;
         padding-top: 50px;
@@ -913,11 +880,11 @@ list_c{
     }
     .sp_pic{
         background: #fff;
-        width: 640px;
+        /* width: 640px;
         margin: 40px auto;
         height: 480px;
-        text-align: center;
-        padding: 100px 0;
+        text-align: center; */
+        padding: 40px;
     }
 
     /* コンタクト */
@@ -928,9 +895,7 @@ list_c{
         font-size: 2rem;
         
     }
-    /* .contact_title{
-        display: none;
-    } */
+ 
     .contact_item{
         font-size: 1.6rem;
     }
@@ -938,12 +903,7 @@ list_c{
         font-size: 1.4rem;
     }
   
-    /* .sp_contact{
-        display: block;
-        max-width: 150px;
-        margin: 0 auto;
-        padding : 92px 0 41px 0;
-    } */
+
     .submit_p{
         font-size: 2.1rem;
         padding: 22px 0 33px 0v;
@@ -952,8 +912,13 @@ list_c{
         margin-bottom: 70px;
     }
     /* ポートフォリオ集 */
-   
-    .carving_wrap{
+    .wrapper{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* .carving_wrap{
         display: block;
         align-items: center;
 
@@ -980,7 +945,7 @@ list_c{
         top:-65px;
         margin-right: 10px;
 
-    }
+    } */
 
 .info_back ul {
     font-size: 2.2rem;
