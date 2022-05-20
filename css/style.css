@@ -586,7 +586,7 @@ border-radius: 10px;
     padding-left: 10px;
     text-align: left;
     position: relative;
-    top: -32px;
+    top: -16px;
 }
 
 
@@ -740,17 +740,20 @@ border-radius: 10px;
     }
     .pic_info{
         background: #286f84;
-        /* max-width: 50%; */
+        max-width: 350px;
         padding-left: 10px;
         text-align: left;
         position: relative;
-        top: -40px;
+        top: -16px;
         margin-left: 10px;
 
     }
     .box ul{
         margin: auto;
     }
+   .wrapper li {
+       text-align: center;
+   }
 
 .more_title{
     display: block;
@@ -758,6 +761,11 @@ border-radius: 10px;
     text-align: center;
     padding-top: 195px;
     font-size: 62px;
+}
+.box_pic{
+    margin: 40px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 /* コンタクト余白レスポンシブ */
 .cntact_all{
