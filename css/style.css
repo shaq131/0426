@@ -387,7 +387,7 @@ header{
 .contact_all{
     background-color: #286f84;
     padding: 40px 0;
-    position: relative;
+    /* position: relative; */
     font-size: 1.8rem;
     /* display: inline-block; */
 
@@ -401,9 +401,12 @@ header{
 
 }
 
-.contact_wrap{
+/* .contact_wrap{
     background-color: #286f84;
 
+} */
+.contact_item{
+    font-size: 1.6rem;
 }
 
 .contact_title{
@@ -430,7 +433,7 @@ header{
 
 .input_name{
     box-sizing: border-box;
-    width: 80%;
+    width: 100%;
     height: 48px;
     border-radius: 10px;
 
@@ -438,7 +441,7 @@ header{
 }
 .input_email{
     box-sizing: border-box;
-    width: 80%;
+    width: 100%;
 border-radius: 10px;
     height: 48px;
 
@@ -446,16 +449,12 @@ border-radius: 10px;
 .input_messe{
     box-sizing: border-box;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     height: 241.0761px;
 }
 
 .cmark_spc{
     max-width: 158px;
-    display: flex;
-    justify-content:space-evenly;
-    position: relative;
-    bottom: 40px;
     text-align: center;
     margin: 0 auto;
 }
@@ -488,7 +487,7 @@ border-radius: 10px;
     font-size: 1.6rem;
     
 }
-/* btn back ひかる */
+/* サンクスページ　btn back ひかる */
 .backto{
     position: relative;
     display: inline-block;
@@ -578,41 +577,23 @@ border-radius: 10px;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     row-gap: 1em;
+    margin-top: 80px;
     
 }
-
-/* 改良前ここから */
-/* .pic_p{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: flex-start;
-    padding: 100px 0;
-}
-.list_c{
-    width: 30%;
-    margin-right: 3.33%;
+.wrapper li{
+    font-size: 1.8rem;
 }
 
-.info_back{
-    background-color: #286f84;
-    max-width: 350px;
+.pic_info{
+    background: #286f84;
+    max-width: 80%;
+    padding-left: 10px;
+    text-align: left;
     position: relative;
-    top: -30px;
-}
-.info_back2{
-    background-color: #286f84;
-    max-width: 350px;
-    position: relative;
-    top: -30px;
+    top: -32px;
 }
 
-.list_info{
-    line-height: 1.7;
-    padding-left: 20px;
-    
-} */
+
 .more_title{
     display: none;
 }
@@ -704,6 +685,7 @@ border-radius: 10px;
         justify-content: center;
     }
     .sp_nav ul li{
+        font-size: 1.8rem;
         padding: 10px;
         color: #fff;
         text-align: center;
@@ -751,6 +733,45 @@ border-radius: 10px;
         margin: 0 auto;
         padding : 92px 0 41px 0;
     }
+}
+
+/* ポートフォリオ別ページ　レスポンシブ  */
+@media screen and (max-width: 1000px){
+     /* ポートフォリオ集 レスポンシブ */
+     .wrapper{
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .pic_info{
+        background: #286f84;
+        /* max-width: 50%; */
+        padding-left: 10px;
+        text-align: left;
+        position: relative;
+        top: -40px;
+        margin-left: 10px;
+
+    }
+    .box ul{
+        margin: auto;
+    }
+/* .box li{
+    width: 300px;
+    
+} */
+/* .info_back ul {
+    font-size: 2.2rem;
+} */
+
+.more_title{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 195px;
+    font-size: 62px;
+}
+
 }
 
 
@@ -902,6 +923,29 @@ border-radius: 10px;
     .input_name{
         font-size: 1.4rem;
     }
+
+    .input_name{
+        box-sizing: border-box;
+        width: 80%;
+        height: 48px;
+        border-radius: 10px;
+    
+    
+    }
+    .input_email{
+        box-sizing: border-box;
+        width: 80%;
+    border-radius: 10px;
+        height: 48px;
+    
+    }
+    .input_messe{
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 80%;
+        height: 241.0761px;
+    }
+    
   
 
     .submit_p{
@@ -911,45 +955,22 @@ border-radius: 10px;
     .btn{
         margin-bottom: 70px;
     }
-    /* ポートフォリオ集 */
-    .wrapper{
+    /* ポートフォリオ集 レスポンシブ */
+    /* .wrapper{
         display: block;
         text-align: center;
         margin: 0 auto;
     }
-
-    /* .carving_wrap{
-        display: block;
-        align-items: center;
+    .pic_info{
+        background: #286f84;
+        
+        padding-left: 10px;
+        text-align: left;
+        position: relative;
+        top: -40px;
+        margin-left: 10px;
 
     }
-    
-    .pic_p{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-        margin: 0 auto;
-        justify-content:center;
-        padding: 100px;
-    }
-    .info_back{
-        max-width: 640px;
-        position:relative;
-        top:-100px;
-        margin-right: 10px;
-    }
-    .info_back2{
-        background-color: #286f84;
-        max-width: 340px;
-        position:relative;
-        top:-65px;
-        margin-right: 10px;
-
-    } */
-
-.info_back ul {
-    font-size: 2.2rem;
-}
 
 .more_title{
     display: block;
@@ -957,7 +978,7 @@ border-radius: 10px;
     text-align: center;
     padding-top: 195px;
     font-size: 62px;
-}
+} */
 
 
 
