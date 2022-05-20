@@ -385,7 +385,7 @@ header{
 
 /* contact ここから*/
 .contact_all{
-    background-color: #286f84;
+    background: #286f84;
     padding: 40px 0;
     font-size: 1.8rem;
     
@@ -901,7 +901,7 @@ border-radius: 10px;
     }
     .list_p p{
         padding: 10px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
  
     .list_wrap{
