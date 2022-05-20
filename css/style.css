@@ -234,11 +234,11 @@ header{
 }
 /* プロフ */
 .prof{
-    /* width: 100%; */
     font-size: 2.3rem;
     letter-spacing: 0.01em;
     line-height: 1.58;
     padding-left: 25px;
+    padding-right: 16px;
 
 }
 /* about項目 */
@@ -387,24 +387,20 @@ header{
 .contact_all{
     background-color: #286f84;
     padding: 40px 0;
-    /* position: relative; */
     font-size: 1.8rem;
-    /* display: inline-block; */
+    
 
 }
+
 .sp_contact{
     display: none;
 }
 .contact{
     max-width: 1000px;
     margin: 0 auto;
+    font-size: 1.6rem;
 
 }
-
-/* .contact_wrap{
-    background-color: #286f84;
-
-} */
 .contact_item{
     font-size: 1.6rem;
 }
@@ -735,7 +731,6 @@ border-radius: 10px;
     }
 }
 
-/* ポートフォリオ別ページ　レスポンシブ  */
 @media screen and (max-width: 1000px){
      /* ポートフォリオ集 レスポンシブ */
      .wrapper{
@@ -756,13 +751,6 @@ border-radius: 10px;
     .box ul{
         margin: auto;
     }
-/* .box li{
-    width: 300px;
-    
-} */
-/* .info_back ul {
-    font-size: 2.2rem;
-} */
 
 .more_title{
     display: block;
@@ -771,11 +759,45 @@ border-radius: 10px;
     padding-top: 195px;
     font-size: 62px;
 }
-
+/* コンタクト余白レスポンシブ */
+.cntact_all{
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    
 }
 
+.contact_item{
+    font-size: 1.6rem;
+}
+.input_name{
+    font-size: 1.4rem;
+}
+
+.input_name{
+    box-sizing: border-box;
+    width: 80%;
+    height: 48px;
+    border-radius: 10px;
 
 
+}
+.input_email{
+    box-sizing: border-box;
+    width: 80%;
+border-radius: 10px;
+    height: 48px;
+
+}
+.input_messe{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 80%;
+    height: 241.0761px;
+}
+
+}
 
     /* ヘッダー */
     @media screen and (max-width: 767px){
@@ -879,7 +901,7 @@ border-radius: 10px;
     }
     .list_p p{
         padding: 10px;
-        font-size: 2.7rem;
+        font-size: 2rem;
     }
  
     .list_wrap{
@@ -901,10 +923,6 @@ border-radius: 10px;
     }
     .sp_pic{
         background: #fff;
-        /* width: 640px;
-        margin: 40px auto;
-        height: 480px;
-        text-align: center; */
         padding: 40px;
     }
 
@@ -949,36 +967,12 @@ border-radius: 10px;
   
 
     .submit_p{
-        font-size: 2.1rem;
+        
         padding: 22px 0 33px 0v;
     }
     .btn{
         margin-bottom: 70px;
     }
-    /* ポートフォリオ集 レスポンシブ */
-    /* .wrapper{
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .pic_info{
-        background: #286f84;
-        
-        padding-left: 10px;
-        text-align: left;
-        position: relative;
-        top: -40px;
-        margin-left: 10px;
-
-    }
-
-.more_title{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 195px;
-    font-size: 62px;
-} */
 
 
 
