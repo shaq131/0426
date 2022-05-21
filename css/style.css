@@ -572,7 +572,7 @@ border-radius: 10px;
 /* 改良案ここから */
 .wrapper {
     display: grid;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
@@ -729,8 +729,8 @@ border-radius: 10px;
     }
     .sp_contact{
         display: block;
-        max-width: 150px;
-        margin: 0 auto;
+        text-align: center;
+        
         padding : 92px 0 41px 0;
     }
 }
