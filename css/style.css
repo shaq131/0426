@@ -173,8 +173,9 @@ header{
     width: 2px;
     height: 40px;
     background: #e21f00;
+    filter: blur(20px);
     /* 線の動きループ */
-    animation: pathmove 1.5s ease-in-out infinite;
+    animation: pathmove 2s ease-in-out infinite;
     opacity: 0;
 }
 /* 高さ・位置・透過が変化してせんが上から下に動く */
