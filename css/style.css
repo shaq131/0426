@@ -141,6 +141,9 @@ header{
     margin-top: 70px;
     margin-left: 20%;
 }
+.sp_video{
+    display: block;
+}
 
 /* top スクロールダウンここから */
 /* 位置 */
@@ -386,7 +389,7 @@ header{
 
 /* contact ここから*/
 .contact_all{
-    background: #286f84;
+    background-color:#286f84;
     padding: 40px 0;
     font-size: 1.8rem;
     
