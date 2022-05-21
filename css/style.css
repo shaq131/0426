@@ -577,7 +577,7 @@ border-radius: 10px;
     
 }
 .wrapper li{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .pic_info{
@@ -734,26 +734,25 @@ border-radius: 10px;
 @media screen and (max-width: 1000px){
      /* ポートフォリオ集 レスポンシブ */
      .wrapper{
-        display: block;
+        grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
+        max-width: 400px;
+        padding: 10px;
         
     }
-    .pic_info{
+    .pic .info{
         background: #286f84;
         max-width: 350px;
         padding-left: 10px;
         text-align: left;
-        /* position: relative;
-        top: -16px; */
         margin-left: 10px;
 
     }
+    
     .box ul{
         margin: auto;
     }
-   .wrapper li {
-       text-align: center;
-   }
+  
 
 .more_title{
     display: block;
@@ -766,6 +765,10 @@ border-radius: 10px;
     margin: 40px;
     max-width: 100%;
     box-sizing: border-box;
+}
+.pic_pp{
+    text-align: center;
+    font-size: 1.6rem;
 }
 /* コンタクト余白レスポンシブ */
 .cntact_all{
