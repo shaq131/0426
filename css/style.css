@@ -743,8 +743,8 @@ border-radius: 10px;
         max-width: 350px;
         padding-left: 10px;
         text-align: left;
-        position: relative;
-        top: -16px;
+        /* position: relative;
+        top: -16px; */
         margin-left: 10px;
 
     }
