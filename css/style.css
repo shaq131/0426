@@ -142,7 +142,7 @@ header{
     margin-left: 20%;
 }
 .sp_video{
-    display: block;
+    display: none;
 }
 
 /* top スクロールダウンここから */
