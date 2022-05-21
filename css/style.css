@@ -159,6 +159,7 @@ header{
     left: -15px;
     top: -15px;
     color: #e21f00;
+
     font-size: 0.7rem;
     letter-spacing: 0.05em;
 }
@@ -173,7 +174,6 @@ header{
     width: 2px;
     height: 40px;
     background: #e21f00;
-    filter: blur(20px);
     /* 線の動きループ */
     animation: pathmove 2s ease-in-out infinite;
     opacity: 0;
