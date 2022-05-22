@@ -490,86 +490,7 @@ border-radius: 10px;
     font-size: 1.6rem;
     
 }
-/* サンクスページ　btn back ひかる */
-.backto{
-    position: relative;
-    display: inline-block;
-    padding: 5px 30px;
-    margin: 10px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-    -webkit-box-reflect: below 0px linear-gradient(transparent,#141414); 
-    transition: 0.5s;
-    transition-delay: 0s;
-}
-.backto :hover{
-    transition-delay: 1.5s;
-    color: #141414;
-    box-shadow: 0 0 10px rgb(242, 39, 39),
-    0 0 20px rgb(242, 39, 39),
-    0 0 40px rgb(242, 39, 39),
-    0 0 80px rgb(242, 39, 39),
-    0 0 160px rgb(242, 39, 39);
-                
-}
- .backto span{
-     position: relative;
-     z-index: 100;
- }
-.backto :nth-child(2){
-    filter: hue-rotate(80deg);
-}
-.backto ::before{
-    content: '';
-    position: absolute;
-    left: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 2px;
-    background: rgb(242, 39, 39);
-    box-shadow: 5px -8px 0 rgb(242, 39, 39),
-                5px -8px 0 rgb(242, 39, 39);
-    transition: width 0.5s, left 0.5s, height 0.5s,
-    box-shadow 0.5s;
-    transition-delay: 1s,0.5s,0s,0s;
-}
-.backto :hover::before{
 
-    width: 60%;
-    height: 100%;
-    left: -2px;
-    box-shadow: 5px 0 0 rgb(242, 39, 39),
-                5px 0 0 rgb(242, 39, 39);
-    transition-delay: 0s,0.5s,1s,1s;
-}
-
-
-.backto ::after{
-    content: '';
-    position: absolute;
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 2px;
-    background: rgb(242, 39, 39);
-    box-shadow: -5px -8px 0 rgb(242, 39, 39),
-                -5px -8px 0 rgb(242, 39, 39);
-    transition: width 0.5s, left 0.5s, height 0.5s,
-    box-shadow 0.5s;
-    transition-delay: 1s,0.5s,0s,0s;
-}
-.backto :hover::after{
-
-    width: 60%;
-    height: 100%;
-    right: -2px;
-    box-shadow: -5px 0 0 rgb(242, 39, 39),
-                -5px 0 0 rgb(242, 39, 39);
-    transition-delay: 0s,0.5s,1s,1s;
-}
 
 /* ポートフォリオ別ページ */
 /* 改良案ここから */
@@ -585,6 +506,10 @@ border-radius: 10px;
 }
 .wrapper li{
     font-size: 1.6rem;
+}
+.pic{
+    width: 90%;
+    margin-left: auto;
 }
 
 .pic_info{
@@ -766,7 +691,7 @@ border-radius: 10px;
     font-size: 62px;
 }
 .box_pic{
-    /* margin: 40px; */
+    
     max-width: 80%;
     box-sizing: border-box;
 }
@@ -867,7 +792,7 @@ border-radius: 10px;
 
     }
     .sp_about_pic img{
-        max-width: 100%;
+        max-width: 95%;
         display: block;
         margin: 0 auto;
         padding-top: 71px;
