@@ -124,6 +124,9 @@ header{
 .sns_link li{
     margin: 0 auto;
 }
+.sns_link .link_ins{
+    max-block-size: 2%;;
+}
 
 
 /* top */
@@ -134,10 +137,7 @@ header{
     position: absolute;top:460px; left: 60px;
     width: 39.4155px;
 }
-.title span{ 
-    transform: rotate(45deg);
-    font-size: 1.6rem;
-}
+
 .top_video {
     width: 80%;
     height: 70%;
@@ -223,11 +223,15 @@ header{
     width:100%;
     margin: 0 auto;
 }
-.about_title{
-    position: absolute;top: 500px; left:60px;
-    width: 38px;
 
-
+.about_title {
+    display: flex;
+    text-decoration: underline solid 2px #e21f00 ;
+    transform: rotate(90deg);
+    font-size: 4.5rem;
+    position: absolute;
+    top: 50%;
+    left: 2%;
 }
 .about_wrap{
     /* width: px; */
