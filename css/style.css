@@ -127,7 +127,9 @@ header{
 .sns_link .link_ins{
     max-block-size: 2%;;
 }
-
+.nav_logo2{
+    padding-top: 5px;
+}
 
 /* top */
 .top{
@@ -429,15 +431,18 @@ header{
     margin-left: auto;
     width: 300px;
 }
+.submit_p{
+    margin-bottom: 16px;
+}
 
 .btn_if {
     background-color:#ca3b3b;
     color: #ededed;
     width: 150px;
-    padding: 14px 0 16px 0;
+    padding: 12px 0 14px 0;
     /* height: 40px; */
     font-size: 2.4rempx;
-    border-radius: 10px;
+    border-radius: 40px;
     
 }
 
@@ -447,6 +452,7 @@ header{
     width: 100%;
     height: 48px;
     border-radius: 10px;
+    margin-bottom: 24px;
 
 
 }
@@ -455,6 +461,7 @@ header{
     width: 100%;
 border-radius: 10px;
     height: 48px;
+    margin-bottom: 24px;
 
 }
 .input_messe{
@@ -462,16 +469,16 @@ border-radius: 10px;
     border-radius: 10px;
     width: 100%;
     height: 241.0761px;
+    margin-bottom: 32px;
 }
 
 .cmark_spc{
     max-width: 158px;
     text-align: center;
     margin: 0 auto;
+    padding-top: 24px;
 }
-.cmark_spc p{
-    font-size: 1rem;
-}
+
 .toTop {
     position: fixed;
     bottom: 10px;
@@ -821,7 +828,7 @@ border-radius: 10px;
         padding: 9px 0 8px 40px;
     }
     .list_skill{
-        padding: 9px  8px 40px;
+        padding: 8px 0 8px 40px;
     }
     .links_sp{
         width: 200px;
@@ -872,6 +879,9 @@ border-radius: 10px;
     .sp_pic{
         background: #fff;
         padding: 40px;
+    }
+    .btn{
+        width: 200px;
     }
 
     /* コンタクト */
