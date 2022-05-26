@@ -208,8 +208,8 @@ header{
 
 /* セクション　アバウトここから */
 
-.sp_about{
-    display: block;
+.sp_title{
+    display: none;
 }
 .sp_about_pic img{
     display: none;
@@ -226,15 +226,16 @@ header{
     margin: 0 auto;
 }
 
-.about_title {
+.title {
     display: flex;
-    text-decoration: underline solid 2px #e21f00 ;
+    text-decoration: underline solid 1.5px #e21f00 ;
     transform: rotate(90deg);
-    font-size: 4.5rem;
+    font-size: 5rem;
     position: absolute;
     top: 50%;
     left: 2%;
 }
+
 .about_wrap{
     /* width: px; */
     display: flex;
@@ -653,12 +654,14 @@ border-radius: 10px;
 /* レスポンシブ ここから*/
 /* セクション毎タイトルの位置レスポンシブ */
 @media screen and (max-width: 1340px){
-    .about_title{
+    .title{
         display: none;
     }
-    .sp_about{
-        display: block;;
-        
+    .sp_title{
+        display: block;
+        display: flex;
+        text-decoration: underline solid 2.5px #e21f00 ;
+        font-size: 10rem;
     }
     .portfolio_title{
         display: none;
@@ -797,14 +800,12 @@ border-radius: 10px;
     .about_wrap{
         padding:0 ;
     }
- 
-    .about_me{
-        margin: 0 auto;
-    }
-    .sp_about{
-        display: block;;
+    .sp_title{
         text-align: center;
 
+    }
+    .sp_title p{
+        margin: 0 auto;
     }
     .sp_about_pic img{
         max-width: 95%;
