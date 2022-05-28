@@ -16,6 +16,7 @@ dl {
     margin: 0;
     padding: 0;
     line-height: 1.57;
+    letter-spacing: 0.08em;
     color: #eeeeee;
     font-family: "FOT-筑紫Aオールド明朝 Pr6N L","A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
         "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
@@ -246,6 +247,7 @@ header{
 .name{
     font-size: 4.3rem;
     padding: 75.6px 0 35.94px 0;
+    letter-spacing: 0;
 }
 /* プロフ */
 .prof{
@@ -301,7 +303,7 @@ header{
 /*セクション　ポートフォリオここから */
 /* 項目、説明、モックアップ、moreのdivを3つ　flex横並び　縦線で挟む */
 .portfolio{
-    padding: 5%;
+    padding: 5% 0 ;
     position: relative;
     
 }
@@ -309,8 +311,14 @@ header{
     margin: 0 auto;
 }
 .portfolio_title{
-    position: absolute;top: 500px; left:60px;
-    width: 38px;
+    display: flex;
+    text-decoration: underline solid 1.5px #e21f00 ;
+    transform: rotate(90deg);
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    /* left: 2%; */
+    
 
 
 }
@@ -327,7 +335,8 @@ header{
 .btn{
     width: 100px;
     padding: 6px 0 8px 0;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.08em;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -424,6 +433,10 @@ header{
 }
 
 .contact_title{
+    display: flex;
+    text-decoration: underline solid 1.5px #e21f00 ;
+    transform: rotate(90deg);
+    font-size: 5rem;
     position: relative;top: 200px; left:60px;
     width: 38px;
 }
@@ -441,7 +454,6 @@ header{
     color: #ededed;
     width: 150px;
     padding: 12px 0 14px 0;
-    /* height: 40px; */
     font-size: 2.4rempx;
     border-radius: 40px;
     
@@ -659,9 +671,9 @@ border-radius: 10px;
     }
     .sp_title{
         display: block;
-        display: flex;
         text-decoration: underline solid 2.5px #e21f00 ;
         font-size: 10rem;
+        text-align: center;
     }
     .portfolio_title{
         display: none;
@@ -676,7 +688,6 @@ border-radius: 10px;
     .sp_contact{
         display: block;
         text-align: center;
-        
         padding : 92px 0 41px 0;
     }
 }
