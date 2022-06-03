@@ -234,7 +234,7 @@ header{
     font-size: 5rem;
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 1.5%;
 }
 
 .about_wrap{
@@ -437,7 +437,7 @@ header{
     text-decoration: underline solid 1.5px #e21f00 ;
     transform: rotate(90deg);
     font-size: 5rem;
-    position: relative;top: 200px; left:60px;
+    position: relative;top: 200px; left:3.5%;
     width: 38px;
 }
 .submit-btn{
@@ -486,6 +486,7 @@ border-radius: 10px;
     height: 241.0761px;
     margin-bottom: 32px;
     padding-left: 16px;
+    padding-top: 16px;
 }
 
 .cmark_spc{
@@ -550,6 +551,27 @@ border-radius: 10px;
     text-align: left;
     position: relative;
     top: -16px;
+}
+
+/* ポート改第二案ここから */
+.port_pkg{
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: flex;
+}
+
+#main {
+    max-width: 50%;
+    float: none;
+    padding: 0;
+}
+
+.list{
+    margin: 0 auto;
+    min-height: 1px;
+
 }
 
 
