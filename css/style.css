@@ -525,8 +525,7 @@ border-radius: 10px;
 
 
 /* ポートフォリオ別ページ */
-/* 改良案ここから */
-.wrapper {
+#main {
     display: grid;
     max-width: 1200px;
     margin: 0 auto;
@@ -534,53 +533,41 @@ border-radius: 10px;
     column-gap: 10px;
     row-gap: 1em;
     margin-top: 80px;
-    
-}
-.wrapper li{
-    font-size: 1.6rem;
-}
-.pic{
-    width: 90%;
-    margin-left: auto;
-}
-
-.pic_info{
-    background: #286f84;
-    max-width: 80%;
-    padding-left: 10px;
-    text-align: left;
-    position: relative;
-    top: -16px;
-}
-
-/* ポート改第二案ここから */
-.port_pkg{
-    display: grid;
-    max-width: 1200px;
-    margin: 0 auto;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
-    row-gap: 1em;
-    margin-top: 80px;
-    /* max-width: 1000px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    display: flex; */
-}
-
-/* #main {
-    max-width: 50%;
-    float: none;
-    padding: 0;
+    padding: 0 10px;
+  
 }
 
 .list{
     margin: 0 auto;
     min-height: 1px;
+    text-align: center;
 
-} */
+} 
 
+.list_cnt h5{
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.list_cnt p{
+font-size: 1.4rem;
+}
+.cnt_info{
+    max-width: 95%;
+    background: #286f84;
+    position: relative;
+    top: -16px;
+    right: 8px;
+}
+
+.cnt_info0 {
+    max-width: 90%;
+    background: #286f84;
+    position: relative;
+    top: -16px;
+    right: 8px;
+
+}
 
 
 /* 別ページポートフォリオここまで */
@@ -759,6 +746,13 @@ border-radius: 10px;
     text-align: center;
     font-size: 1.6rem;
 }
+@media screen and (max-width: 720px){
+    #main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
 /* コンタクト余白レスポンシブ */
 .cntact_all{
     max-width: 100%;
@@ -803,7 +797,7 @@ border-radius: 10px;
     @media screen and (max-width: 767px){
         .sp_shaq{
             position: relative;
-            top: -48px;
+            top: -32px;
         }
     .header_wrap{
         display: block;
