@@ -555,14 +555,21 @@ border-radius: 10px;
 
 /* ポート改第二案ここから */
 .port_pkg{
-    max-width: 1000px;
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 1em;
+    margin-top: 80px;
+    /* max-width: 1000px;
     margin: 0 auto;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    display: flex;
+    display: flex; */
 }
 
-#main {
+/* #main {
     max-width: 50%;
     float: none;
     padding: 0;
@@ -572,7 +579,7 @@ border-radius: 10px;
     margin: 0 auto;
     min-height: 1px;
 
-}
+} */
 
 
 
