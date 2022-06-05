@@ -405,6 +405,7 @@ header{
 .list_pic img {
  max-width:100%;
  height:auto;
+ border-radius: 16px;
 }
 
 /* contact ここから*/
@@ -500,7 +501,7 @@ border-radius: 10px;
     position: fixed;
     bottom: 10px;
     right: 10px;
-    width: 50px;
+    width: 32px;
 }
 .toback{
     position: fixed;
@@ -838,6 +839,7 @@ border-radius: 10px;
     }
     .sp_title{
         text-align: center;
+        font-size: 5rem;
 
     }
     .sp_title p{
