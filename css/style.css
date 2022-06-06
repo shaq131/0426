@@ -986,7 +986,11 @@ border-radius: 10px;
         margin-bottom: 70px;
     }
 
-
+    @media screen and (max-width: 426px){
+        .top{
+            height: auto;
+        }
+    }
 
 
 }
