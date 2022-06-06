@@ -923,6 +923,9 @@ border-radius: 10px;
         box-sizing: border-box;
 
     }
+    .list_pic img{
+        border-radius: 0%;
+    }
     .link1{
         margin: 10px 0;
         padding-top: 2rem;
