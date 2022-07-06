@@ -140,6 +140,10 @@ header{
 .top{
     height: 900px;
 }
+#header{
+    background-color: rgb(71, 70, 70);
+    
+}
 .top_title{
     position: absolute;top:320px; left: 60px;
     width: 39.4155px;
