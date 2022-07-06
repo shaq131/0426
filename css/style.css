@@ -171,13 +171,13 @@ header{
     width: 39.4155px;
 }
 
-.top_video {
+/* .top_video {
     width: 100%; 
     height: 70%;
     padding-bottom: 100px;
     margin-top: 70px;
-    /* margin-left: 10%; */
-}
+    margin-left: 10%;
+} */
 .sp_video{
     display: none;
 }
@@ -333,6 +333,9 @@ header{
 }
 /*セクション　ポートフォリオここから */
 /* 項目、説明、モックアップ、moreのdivを3つ　flex横並び　縦線で挟む */
+#portfolio{
+    background-color: #141414;
+}
 .portfolio{
     padding: 5% 0 ;
     position: relative;
