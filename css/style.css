@@ -144,6 +144,7 @@ header{
 #header{
     position: relative;
     height: 100vh;
+    background-color: rgb(21,21,21/20%);
 }
 #top_v{
     position: fixed;
@@ -165,8 +166,14 @@ header{
     min-height: 100%;
     min-width: 100%;
 }
-
-.top_namae span{
+.top_title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+    z-index: 999;
+}
+.top_namae {
     text-align: center;
     margin: 0 auto;
     font-size: 3rem;
