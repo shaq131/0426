@@ -166,7 +166,7 @@ header{
     min-width: 100%;
 }
 
-.top_namae{
+.top_namae span{
     text-align: center;
     margin: 0 auto;
     font-size: 3rem;
