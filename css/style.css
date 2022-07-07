@@ -168,7 +168,7 @@ header{
 }
 .top_title{
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 50%;
     display: inline-block;
     z-index: 999;
