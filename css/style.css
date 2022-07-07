@@ -174,10 +174,8 @@ header{
     z-index: 999;
     text-align: center;
 }
-.top_namae {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 3rem;
+.top_namae span{
+    color: #ca3b3b;
 }
 .top_detail{
     text-align: center;
