@@ -172,6 +172,7 @@ header{
     top: 50%;
     display: inline-block;
     z-index: 999;
+    text-align: center;
 }
 .top_namae {
     text-align: center;
