@@ -56,7 +56,7 @@ img {
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 62.5%;/*rem算出をしやすくするために*/
+  font-size: 62.5%;/*rem算出をしやすくするために、1rem＝10px*/
   scroll-behavior: smooth;
 }
 
@@ -166,10 +166,20 @@ header{
     min-width: 100%;
 }
 
-.top_title{
+.top_namae{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+.top_detail{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+/* .top_title{
     position: absolute;top:320px; left: 60px;
     width: 39.4155px;
-}
+} */
 
 /* .top_video {
     width: 100%; 
