@@ -144,7 +144,7 @@ header{
 #header{
     position: relative;
     height: 100vh;
-    background-color: rgb(21,21,21/20%);
+    background-color: rgb(21,21,21,0.1);
 }
 #top_v{
     position: fixed;
