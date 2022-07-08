@@ -175,8 +175,8 @@ header{
     text-align: center;
 }
 
-.top_title h1{
-    font-size: 5.6rem;
+.top_name {
+    font-size: 8rem;
     font-weight: 900;
     letter-spacing: 14px;
 }
