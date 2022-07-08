@@ -158,8 +158,8 @@ header{
 #top_video{
     position: absolute;
     z-index: -1;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
     transform: translate(-50%,-50%);
     width:  177.77777778vh;
     height: 56.25vw;
