@@ -144,7 +144,7 @@ header{
 #header{
     position: relative;
     height: 100vh;
-    background-color: rgb(21,21,21,0.1);
+    background-color: rgb(21,21,21,0.2);
 }
 #top_v{
     position: fixed;
@@ -647,7 +647,7 @@ font-size: 1.4rem;
 
 
 /* ハンバーガ作成ここから */
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1500px) {
     .pc_nav{
         display: none;
     }
