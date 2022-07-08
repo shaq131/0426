@@ -173,8 +173,11 @@ header{
     display: inline-block;
     z-index: 999;
     text-align: center;
+    font-size: 5.6rem;
+    font-weight: 900;
+    letter-spacing: 14px;
 }
-.top_namae span{
+.top_title h1 span{
     color: #ca3b3b;
 }
 .top_detail{
