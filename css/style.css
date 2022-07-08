@@ -173,11 +173,14 @@ header{
     display: inline-block;
     z-index: 999;
     text-align: center;
+}
+
+.top_title h1{
     font-size: 5.6rem;
     font-weight: 900;
     letter-spacing: 14px;
 }
-.top_title h1 span{
+.top_title span{
     color: #ca3b3b;
 }
 .top_detail{
