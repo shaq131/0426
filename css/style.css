@@ -769,6 +769,12 @@ font-size: 1.4rem;
         padding : 92px 0 41px 0;
     }
 }
+@media screen and (max-width: 500px){
+    .top_title{
+        left: 20%;
+    }
+    
+}
 
 @media screen and (max-width: 1000px){
      /* ポートフォリオ集 レスポンシブ */
