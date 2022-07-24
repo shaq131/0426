@@ -95,7 +95,7 @@ header{
 }
 .logo{
     
-    width: 64px;
+    width: 32px;
     /* margin-top: 10px; */
     
 }
@@ -769,6 +769,12 @@ font-size: 1.4rem;
         padding : 92px 0 41px 0;
     }
 }
+@media screen and (max-width: 767px){
+    .top_title{
+        left: 35%;
+    }
+    
+}
 @media screen and (max-width: 500px){
     .top_title{
         left: 20%;
@@ -777,7 +783,7 @@ font-size: 1.4rem;
 }
 @media screen and (max-width: 375px){
     .top_title{
-        left: 15%;
+        left: 12%;
     }
     
 }
