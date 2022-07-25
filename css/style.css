@@ -781,6 +781,12 @@ font-size: 1.4rem;
     }
     
 }
+@media screen and (max-width: 425px){
+    .top_title{
+        left: 15%;
+    }
+    
+}
 @media screen and (max-width: 375px){
     .top_title{
         left: 12%;
