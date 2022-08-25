@@ -290,7 +290,7 @@ header{
 }
 .name{
     font-size: 4.3rem;
-    padding: 32px 0 32px 0;
+    padding: 40px 0 0 0;
     letter-spacing: 0;
 }
 /* プロフ */
@@ -305,6 +305,7 @@ header{
 /* about項目 */
 .about_subtitle{
     font-size: 29px;
+    padding: 40px 0 0 0;
 }
 .sp_about{
     display: none;
@@ -313,14 +314,14 @@ header{
 .list_job{
     font-size: 2.3rem;
     list-style:disc;
-    padding: 24px 0 30px 40px;
+    padding: 0 0 0 40px;
     
 }
 /* スキル */
 .list_skill{
     font-size: 2.3rem;
     list-style:disc;
-    padding: 24px 0 33px 40px;
+    padding: 0 0 0 40px;
 }
 
 /* プロフ写真 */
