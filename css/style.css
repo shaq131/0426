@@ -94,10 +94,7 @@ header{
     display: flex;
 }
 .logo{
-    
-    width: 32px;
-    /* margin-top: 10px; */
-    
+    width: 40px;
 }
 .pc_nav{
     display: flex;
