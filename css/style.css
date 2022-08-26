@@ -345,7 +345,7 @@ header{
 /*セクション　ポートフォリオここから */
 /* 項目、説明、モックアップ、moreのdivを3つ　flex横並び　縦線で挟む */
 #portfolio{
-    background-color: #141414;
+    background-color: #353434ed;
 }
 .portfolio{
     padding: 5% 0 ;
