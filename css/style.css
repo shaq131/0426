@@ -586,17 +586,18 @@ border-radius: 10px;
 .list{
     margin: 0 auto;
     min-height: 1px;
-    text-align: center;
 
 } 
 
 .list_cnt h5{
     font-size: 1.4rem;
     margin: 0;
+    padding-left: 15%;
 }
 
-.list_cnt p{
-font-size: 1.4rem;
+.list_cnt .p2{
+ font-size: 1.4rem;
+ padding-left: 15%;
 }
 .cnt_info{
     max-width: 95%;
