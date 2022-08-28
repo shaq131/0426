@@ -259,7 +259,7 @@ header{
 .about{
     max-width: 100%;
     background-color: #286f84;
-    padding: 40px 0;
+    /* padding: 40px 0; */
     position: relative;
 
 }
@@ -329,7 +329,7 @@ header{
 
 }
 .about_pic{
-    padding: 50px 20% 0 10%;
+    padding: 0 10px 0 10%;
   
 }
 .about_info{
