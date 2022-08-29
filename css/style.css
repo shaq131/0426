@@ -296,7 +296,7 @@ header{
     letter-spacing: 0.01em;
     line-height: 1.58;
     padding-left: 25px;
-    padding-right: 16px;
+    /* padding-right: 16px; */
 
 }
 /* about項目 */
